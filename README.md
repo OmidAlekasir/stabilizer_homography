@@ -20,13 +20,17 @@ h_{31} & h_{32} & h_{33}
 $$
 
 This transformation matrix describes the mapping between the detected points in two frames. By applying this matrix to the video frames, the resulting frame is matched to the reference frame, forcing it to mimic the features of the target frame. This causes the video frames to appear "stabilized".
+
 $$
 \mathbf{P}_{ref} = H\mathbf{P}
 $$
+
 where $\mathbf{P}$ and $\mathbf{P}_{ref}$ are the matrices of detected points in the video frames and the reference frame, respectively, $H$ is the computed homography matrix. This homography matrix is multiplied by the video frames to stabilize them.
+
 $$
 f^s = Hf
 $$
+
 where $f$ is the frame and $f^s$ is the stabilized frame.
 
 ## Example
