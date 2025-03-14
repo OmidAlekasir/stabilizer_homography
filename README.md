@@ -32,4 +32,4 @@ where $f$ is the frame and $f^s$ is the stabilized frame.
 ## Example
 I found a willing volunteer at K.N. Toosi University who helped me with this simple experiment. After taking the video with significant rotations and movements, the 120th frame of the video was considered as the reference frame to stabilize the rest of the video accordingly.
 
-<video src="src/results.wmv" width="640" height="240" controls></video>
+![Alt Text](src/results.gif)
